@@ -3,5 +3,4 @@ kind: Kustomization
 
 resources:
   - namespace.yaml
-  - dashboard-service.yaml
   - dashboard-deployment.yaml
