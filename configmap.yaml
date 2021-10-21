@@ -1,9 +1,160 @@
 apiVersion: v1
 kind: ConfigMap
 metadata:
-  name: "configmap-test-${addonName:=dev}"
+  name: "configmap-test-00-${addonName:=dev}"
   namespace: dev
 data:
   color: purple
   how: fairlyNice
   textmode: "true"
+---
+apiVersion: v1
+kind: ConfigMap
+metadata:
+  name: "configmap-test-01-${addonName:=dev}"
+  namespace: dev
+data:
+  color: purple
+  how: fairlyNice
+  textmode: "true"
+---
+apiVersion: v1
+kind: ConfigMap
+metadata:
+  name: "configmap-test-02-${addonName:=dev}"
+  namespace: dev
+data:
+  color: purple
+  how: fairlyNice
+  textmode: "true"
+---
+apiVersion: v1
+kind: ConfigMap
+metadata:
+  name: "configmap-test-03-${addonName:=dev}"
+  namespace: dev
+data:
+  color: purple
+  how: fairlyNice
+  textmode: "true"
+---
+apiVersion: v1
+kind: ConfigMap
+metadata:
+  name: "configmap-test-04-${addonName:=dev}"
+  namespace: dev
+data:
+  color: purple
+  how: fairlyNice
+  textmode: "true"
+---
+apiVersion: v1
+kind: ConfigMap
+metadata:
+  name: "configmap-test-05-${addonName:=dev}"
+  namespace: dev
+data:
+  color: purple
+  how: fairlyNice
+  textmode: "true"
+---
+apiVersion: v1
+kind: ConfigMap
+metadata:
+  name: "configmap-test-06-${addonName:=dev}"
+  namespace: dev
+data:
+  color: purple
+  how: fairlyNice
+  textmode: "true"
+---
+apiVersion: v1
+kind: ConfigMap
+metadata:
+  name: "configmap-test-07-${addonName:=dev}"
+  namespace: dev
+data:
+  color: purple
+  how: fairlyNice
+  textmode: "true"
+---
+apiVersion: v1
+kind: ConfigMap
+metadata:
+  name: "configmap-test-08-${addonName:=dev}"
+  namespace: dev
+data:
+  color: purple
+  how: fairlyNice
+  textmode: "true"
+---
+apiVersion: v1
+kind: ConfigMap
+metadata:
+  name: "configmap-test-09-${addonName:=dev}"
+  namespace: dev
+data:
+  color: purple
+  how: fairlyNice
+  textmode: "true"
+---
+apiVersion: v1
+kind: ConfigMap
+metadata:
+  name: "configmap-test-10-${addonName:=dev}"
+  namespace: dev
+data:
+  color: purple
+  how: fairlyNice
+  textmode: "true"
+---
+apiVersion: v1
+kind: ConfigMap
+metadata:
+  name: "configmap-test-11-${addonName:=dev}"
+  namespace: dev
+data:
+  color: purple
+  how: fairlyNice
+  textmode: "true"
+---
+apiVersion: v1
+kind: ConfigMap
+metadata:
+  name: "configmap-test-12-${addonName:=dev}"
+  namespace: dev
+data:
+  color: purple
+  how: fairlyNice
+  textmode: "true"
+---
+apiVersion: v1
+kind: ConfigMap
+metadata:
+  name: "configmap-test-13-${addonName:=dev}"
+  namespace: dev
+data:
+  color: purple
+  how: fairlyNice
+  textmode: "true"
+---
+apiVersion: v1
+kind: ConfigMap
+metadata:
+  name: "configmap-test-14-${addonName:=dev}"
+  namespace: dev
+data:
+  color: purple
+  how: fairlyNice
+  textmode: "true"
+---
+apiVersion: v1
+kind: ConfigMap
+metadata:
+  name: "configmap-test-15-${addonName:=dev}"
+  namespace: dev
+data:
+  color: purple
+  how: fairlyNice
+  textmode: "true"
+---
